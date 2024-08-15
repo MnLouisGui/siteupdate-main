@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" contenteditable="30" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Nossos Produtos| RedStore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8402af2abd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo"> <a href="index.html"><h1 id="monster">MONSTER <span id="zilla">ZILLA</a></div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="login.html">Conta</a></li>
+                </ul>
+            </nav>
+            <a href="carrinho.html"><img src="imagens/cart.png" width="30px" height="30px"></a>
+            <img src="imagens/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="small-container">
+
+        <div class="row row2">
+            <h2>Todos os Produtos</h2>
+            <select>
+                <option>Listagem Padrão</option>
+                <option>Preço mais Baixo</option>
+                <option>Melhores Avaliações</option>
+                <option>Mais Populares</option>
+                <option>Mais Vendidos</option>option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="descricao-produtos.html"><img src="imagens/product-1.jpg"></a>
+                <a href="descricao-produtos.html"></a>
+                <h4>Les Paul Gibson Classic</h4></a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>R$30.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagens/product-2.jpg">
+                <h4>SG Epiphone</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>R$5.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagens/product-3.jpg">
+                <h4>Fender Stratocaster</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>R$15.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagens/product-4.jpg">
+                <h4>Fender Telecaster</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>R$10.000,00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="imagens/product-5.jpg">
+                <h4>Jackson Flying V Black</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>R$9.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagens/product-6.jpg">
+                <h4>B.C Rich Warlock</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>R$25.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagens/product-7.jpg">
+                <h4> Ibanez Jem Jr Steve Vai</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>R$30.500,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagens/product-8.jpg">
+                <h4>Fender Jazz Bass</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>R$15.000,00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="imagens/product-9.jpg">
+                <h4>Gene Simmons Bass Axe</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>R$25.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagens/product-10.jpg">
+                <h4>Epiphone SG Double Neck</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>R$50.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagens/product-11.jpg">
+                <h4>EVH Striped Series RBW</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>R$20.000,00</p>
+            </div>
+            <div class="col-4">
+                <img src="imagens/product-12.jpg">
+                <h4>Tagima Explorer</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>R$5.000,00</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Baixe nosso App!</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="imagens/8-removebg-preview.png">
+                    <p>Nosso propósito é despertar o melhor das pessoas através da Academia</p>
+                    <div class="app-logo">
+                        <img src="imagens/play-store.png">
+                        <img src="imagens/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Blog</li>
+                        <li>Política de retorno</li>
+                        <li>Afilie-se</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Siga-nos nas redes sociais!</h3>
+                    <ul>
+                        <li >Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p>© MONSTERZILLA - Todos os direitos reservados</p>
+        </div>
+    </div>
+    </div>
+
+    <!--js menu responsivo-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItens.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

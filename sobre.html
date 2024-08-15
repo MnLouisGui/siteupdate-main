@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Aqui você encontra os melhores instrumentos músicais da internet" />
+    <meta name="author" content="André Garcia Fattore" />
+    <meta name="keywords" content="Guitarra, baixo, loja" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" contenteditable="30" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>MONSTERZILLA| Ecommerce Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8402af2abd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"> <a href="index.html"><h1 id="monster">MONSTER <span id="zilla">ZILLA</a></div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="conta.html">Conta</a></li>
+                    </ul>
+                </nav>
+                <a href="carinho/carinho.html"><img src="imagens/cart.png" width="30px" height="30px"></a>
+                <img src="imagens/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            
+            <div class="row">
+                <div class="col-3">
+                    <img src="imagens/Baki Hanma.jpeg">
+                </div>
+                
+                <div class="col-2">
+                    
+                    <h1>Quem Somos</h1>
+                    <p>Nossos produtos são desenvolvidos com base em pesquisas científicas recentes e são formulados para fornecer os nutrientes essenciais que o corpo precisa para funcionar de maneira ideal. Trabalhamos em parceria com nutricionistas, médicos e especialistas em fitness para garantir que nossos produtos atendam aos mais altos padrões de qualidade e segurança.</p>
+                    <br>
+                    <p>Na MONSTERZILLA, acreditamos que a saúde é a maior riqueza e estamos comprometidos em ajudar nossos clientes a alcançar e manter um estilo de vida saudável. Nossa equipe está sempre disponível para fornecer orientação e suporte personalizados, ajudando os clientes a escolher os produtos mais adequados às suas necessidades individuais.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- contatos -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+             
+                <div class="col-3">
+                    <h2 class="contatos">Whatsapp</h2>
+                    <p class="sobre-contato">Tem alguma dúvida? Quer algum suplemento específico? Envie uma mensagem no nosso Whatsapp!
+                    </p>
+                    <p class="rede-social"><i class="fab fa-whatsapp">(11) 91234-5678</i></p>
+                    <img src="imagens/whatsapp.png">
+                   
+                </div>
+                <div class="col-3">
+                    <h2 class="contatos">Facebook</h2>
+                    <p class="sobre-contato">Fique por dentro de todas as nossas novidades, promoções e avisos. Curta nossa página no Facebook!
+                    </p>
+                    <p class="rede-social"><i class="fab fa-facebook">facebook.com/guitarshop</i></p>
+                    <img src="imagens/facebook.png">
+                   
+                </div>
+                <div class="col-3">
+                    <h2 class="contatos">Youtube</h2>
+                    <p class="sobre-contato">Inscreva-se no nosso canal e veja nosso conteudo semanal recheado de novidades, curiosidades.
+                    </p>
+                    <p class="rede-social"><i class="fab fa-youtube">youtube.com/guitarshop</i></p>
+                    <img src="imagens/youtube.png">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Baixe nosso App!</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="imagens/8-removebg-preview.png">
+                    <p>Nosso propósito é despertar o melhor das pessoas através da Academia</p>
+                    <div class="app-logo">
+                        <img src="imagens/play-store.png">
+                        <img src="imagens/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Blog</li>
+                        <li>Política de retorno</li>
+                        <li>Afilie-se</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Siga-nos nas redes sociais!</h3>
+                    <ul>
+                        <li >Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p>© MONSTERZILLA - Todos os direitos reservados</p>
+        </div>
+    </div>
+
+    <!--js menu responsivo-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItens.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

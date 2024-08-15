@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+        <div>
+            <div >
+            <img src="imagens/8-removebg-preview.png" alt="">
+            </div>
+            <div><label>Digite seu Email</label></div>
+            <input type="email" name="email" id="email" placeholder="Email@email.com" onchange="validateFields()"/>
+        <div>
+            <div><label>Digite sua Senha</label></div>
+            <input type="password" name="password" id="password" placeholder="Senha" onchange="validateFields()"/>
+        </div>
+        <div>
+            <button type="button" class="solid" id="login-button" disabled="true" onclick="login()">Entrar</button>
+        </div>
+        <div>
+            <button type="button" class="clear" id="recover-password-button" disabled="true">Recuperar senha</button>
+        </div>
+        <div>
+            <button type="button" class="outline" onclick="registrar()">Cadastrar</button>
+        </div>
+    
+        
+    </form>
+    <footer>
+        <h1>________________</h1>
+    </footer>
+    
+    <script src="index.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth-compat.js"></script>
+    <script>
+        const firebaseConfig = {
+        apiKey: "AIzaSyDlfsgnlW_bEaScNBBbiHsSMVPqesBRl_I",
+        authDomain: "site-monsterzilla.firebaseapp.com",
+        projectId: "site-monsterzilla",
+        storageBucket: "site-monsterzilla.appspot.com",
+        messagingSenderId: "28236738932",
+        appId: "1:28236738932:web:d1a5be3a66daaf7d6ffc21"
+    };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    
+</body>
+</html>

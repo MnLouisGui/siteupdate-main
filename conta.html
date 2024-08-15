@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" contenteditable="30" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Nossos Produtos| MONSTERZILLA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8402af2abd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo"> <a href="index.html"><h1 id="monster">MONSTER <span id="zilla">ZILLA</a></div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="conta.html">Conta</a></li>
+                </ul>
+            </nav>
+            <a href="carrinho.html"><img src="imagens/cart.png" width="30px" height="30px"></a>
+            <img src="imagens/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!-- Conta -->
+    
+    <div class="account">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="imagens/download (2).jpeg">
+                    <h1>Sua Conta
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()" >Login</span>
+                            <span onclick="register()" >Cadastro</span>
+                            <hr id="Indicator">
+                        </div>
+                        
+                        <form action="post" id="LoginForm">
+                            <input type="text" placeholder="Email" >
+                                <input type="password" placeholder="Senha" >
+                                <button type="submit" class="btn">Login</button>
+                                <a href="">Esqueceu sua senha?</a>
+                        </form>
+                           
+                        <form action="post" id="RegForm">
+                           <label>Digite seu nome</label>
+                            <input type="text" placeholder="Usuário">
+                            <div><label>Email</label></div>
+                            <input type="email" name="email" id="email" placeholder="Email.com" onchange="validateFields()"/>
+                            <div><label>Senha</label></div>
+                            <input type="password" name="password" id="password" placeholder="Senha" onchange="validateFields()"/>
+                            <button type="button" class="btn">Cadastrar</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Baixe nosso App!</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="imagens/8-removebg-preview.png">
+                    <p>Nosso propósito é despertar o melhor das pessoas através da Academia</p>
+                    <div class="app-logo">
+                        <img src="imagens/play-store.png">
+                        <img src="imagens/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Blog</li>
+                        <li>Política de retorno</li>
+                        <li>Afilie-se</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Siga-nos nas redes sociais!</h3>
+                    <ul>
+                        <li >Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p>© MONSTERZILLA - Todos os direitos reservados</p>
+        </div>
+    </div>
+    </div>  
+</html>
+   
